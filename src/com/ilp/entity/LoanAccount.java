@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class LoanAccount extends Product {
 	
-	double chequeDeposit = 0.003;
+	private double chequeDeposit = 0.003;
 
 	public double getChequeDeposit() {
 		return chequeDeposit;
